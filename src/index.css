@@ -1,0 +1,39 @@
+:root {
+  --theme-color: #1d1dff;
+  --theme-text-color: #607d8b;
+
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', sans-serif;  
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e4d0d0;
+  border-radius: 4px;
+}
+body {
+  background-image: url('https://png.pngtree.com/back_origin_pic/04/48/50/84cd2a9fbc6cbd5522b2f048a56703a8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+html{
+  color-scheme:  light;
+}
+body {
+  min-height: 100vh;
+}
+img, picture, svg, video{
+  display: block;
+  max-width: 100%;
+}
